@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" width="800" height="200">
+  <defs>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%"   stop-color="#00FF41"/>
+      <stop offset="50%"  stop-color="#00CFFF"/>
+      <stop offset="100%" stop-color="#00FF41"/>
+    </linearGradient>
+  </defs>
+  <!-- Corner accents -->
+  <polyline points="8,8 8,24 24,8" fill="none" stroke="#00FF41" stroke-width="2"/>
+  <polyline points="792,8 776,8 792,24" fill="none" stroke="#00FF41" stroke-width="2"/>
+  <polyline points="8,192 8,176 24,192" fill="none" stroke="#00FF41" stroke-width="2"/>
+  <polyline points="792,192 776,192 792,176" fill="none" stroke="#00FF41" stroke-width="2"/>
+  <!-- HACK THE GIBSON text -->
+  <text x="400" y="80" text-anchor="middle" font-family="Orbitron, sans-serif" font-size="52" font-weight="900"
+        fill="url(#g1)" filter="url(#glow)" letter-spacing="8">HACK</text>
+  <text x="400" y="148" text-anchor="middle" font-family="Orbitron, sans-serif" font-size="36" font-weight="700"
+        fill="#00CFFF" filter="url(#glow)" letter-spacing="18">THE GIBSON</text>
+  <!-- scanline hint -->
+  <line x1="60" y1="162" x2="740" y2="162" stroke="#00FF4133" stroke-width="1"/>
+  <!-- placeholder label -->
+  <text x="400" y="185" text-anchor="middle" font-family="monospace" font-size="10" fill="#00FF4166"
+        letter-spacing="4">[ REPLACE WITH FINAL LOGO ARTWORK — 800×200 ]</text>
+</svg>

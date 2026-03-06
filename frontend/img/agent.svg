@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <filter id="aglow"><feGaussianBlur stdDeviation="6" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="red-glow"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <!-- Dark red BG -->
+  <rect width="400" height="400" fill="#0D0000"/>
+  <!-- Hazard stripes top/bottom -->
+  <rect x="0" y="0" width="400" height="20" fill="#FF2222" opacity="0.7"/>
+  <rect x="0" y="380" width="400" height="20" fill="#FF2222" opacity="0.7"/>
+  <!-- Diagonal warning stripes top bar -->
+  <clipPath id="top-clip"><rect x="0" y="0" width="400" height="20"/></clipPath>
+  <g clip-path="url(#top-clip)" opacity="0.5">
+    <line x1="-10" y1="0"  x2="20"  y2="30"  stroke="#000" stroke-width="10"/>
+    <line x1="30"  y1="0"  x2="60"  y2="30"  stroke="#000" stroke-width="10"/>
+    <line x1="70"  y1="0"  x2="100" y2="30"  stroke="#000" stroke-width="10"/>
+    <line x1="110" y1="0"  x2="140" y2="30"  stroke="#000" stroke-width="10"/>
+    <line x1="150" y1="0"  x2="180" y2="30"  stroke="#000" stroke-width="10"/>
+    <line x1="190" y1="0"  x2="220" y2="30"  stroke="#000" stroke-width="10"/>
+    <line x1="230" y1="0"  x2="260" y2="30"  stroke="#000" stroke-width="10"/>
+    <line x1="270" y1="0"  x2="300" y2="30"  stroke="#000" stroke-width="10"/>
+    <line x1="310" y1="0"  x2="340" y2="30"  stroke="#000" stroke-width="10"/>
+    <line x1="350" y1="0"  x2="380" y2="30"  stroke="#000" stroke-width="10"/>
+  </g>
+  <!-- FBI Badge outline -->
+  <path d="M200,45 L228,62 L228,100 L200,118 L172,100 L172,62 Z" 
+        fill="none" stroke="#FF2222" stroke-width="2" filter="url(#red-glow)"/>
+  <text x="200" y="85" text-anchor="middle" font-family="Orbitron, monospace" font-size="16" font-weight="900"
+        fill="#FF2222" filter="url(#red-glow)">FBI</text>
+  <!-- Agent Silhouette — suit body -->
+  <rect x="152" y="150" width="96" height="130" rx="4" fill="#1A0000" stroke="#FF2222" stroke-width="1.5"/>
+  <!-- Tie -->
+  <polygon points="200,145 208,165 200,240 192,165" fill="#EE0000" opacity="0.6"/>
+  <!-- Head circle -->
+  <circle cx="200" cy="132" r="32" fill="#1A0000" stroke="#FF2222" stroke-width="2" filter="url(#red-glow)"/>
+  <!-- Eyes (sunglasses bar) -->
+  <rect x="178" y="122" width="17" height="10" rx="2" fill="#FF2222" opacity="0.9"/>
+  <rect x="205" y="122" width="17" height="10" rx="2" fill="#FF2222" opacity="0.9"/>
+  <line x1="195" y1="127" x2="205" y2="127" stroke="#FF2222" stroke-width="2"/>
+  <!-- Shoulders -->
+  <polygon points="152,150 120,175 130,190 175,165" fill="#1A0000" stroke="#FF2222" stroke-width="1.5"/>
+  <polygon points="248,150 280,175 270,190 225,165" fill="#1A0000" stroke="#FF2222" stroke-width="1.5"/>
+  <!-- Arms -->
+  <rect x="120" y="190" width="30" height="70" rx="4" fill="#1A0000" stroke="#FF2222" stroke-width="1"/>
+  <rect x="250" y="190" width="30" height="70" rx="4" fill="#1A0000" stroke="#FF2222" stroke-width="1"/>
+  <!-- Legs -->
+  <rect x="160" y="278" width="32" height="80" rx="4" fill="#1A0000" stroke="#FF2222" stroke-width="1"/>
+  <rect x="208" y="278" width="32" height="80" rx="4" fill="#1A0000" stroke="#FF2222" stroke-width="1"/>
+  <!-- "TRACE DETECTED" text -->
+  <text x="200" y="378" text-anchor="middle" font-family="monospace" font-size="10" fill="#FF2222"
+        filter="url(#red-glow)" letter-spacing="3">TRACE DETECTED</text>
+  <!-- Label -->
+  <text x="200" y="396" text-anchor="middle" font-family="monospace" font-size="9" fill="#FF222255"
+        letter-spacing="3">[ FBI AGENT ART — 400×400 ]</text>
+</svg>

@@ -52,6 +52,18 @@ def main():
     app = web.Application()
     Sio().attach(app)
 
+    # Serve the frontend from ../frontend/ at /app/
+    frontend_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..', 'frontend')
+    if os.path.isdir(frontend_path):
+        app.router.add_static('/app', frontend_path, name='frontend')
+
+        async def root_redirect(request):
+            raise web.HTTPFound('/app/index.html')
+        app.router.add_get('/', root_redirect)
+        logging.info("Frontend served at /app/index.html")
+    else:
+        logging.warning("Frontend directory not found at %s", frontend_path)
+
     # Load SSL context
     cert_path = Config()["SSL_CERT"]
     key_path = Config()["SSL_KEY"]
