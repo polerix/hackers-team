@@ -1,0 +1,42 @@
+# Compound adjectives made up of a prefix and a base combining to form a single word: PREFIX BASE
+# Any prefix can be combined with any base.
+
+
+# Prefix
+Zero
+Hyper
+Mega
+Ultra
+Crypto
+Cyber
+Black
+Dark
+Ghost
+Root
+Rogue
+Deep
+Back
+Multi
+Super
+Kernel
+Signal
+Proxy
+Remote
+Viral
+
+# Base
+hacked
+coded
+linked
+wired
+traced
+routed
+jacked
+loaded
+locked
+scripted
+patched
+threaded
+encrypted
+burned
+logged

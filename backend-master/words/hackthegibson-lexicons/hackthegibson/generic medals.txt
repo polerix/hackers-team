@@ -1,0 +1,37 @@
+# Generic medals (achievements) awarded to players.
+# One medal name per line.
+
+Zero Cool
+Crash Override
+Acid Burn
+Lord Nikon
+Phantom Phreak
+Cereal Killer
+The Plague
+Razor
+Blade
+Emmanuel Goldstein
+RISC Architect
+Kernel Cowboy
+Elite Hacker
+Righteous Hacker
+Phone Phreak
+Ghost Node
+The Back Door
+Master of Disaster
+Keyboard Samurai
+Cookie Monster
+Zero Bug
+Rabbit Wrangler
+The Garbage File
+Flu-Shot Admin
+Gibson Slayer
+Worm Hunter
+Big Iron Breaker
+Hack the Planet
+Superuser
+Dark Side Operator
+Shoulder Surfer
+Dial-Up Artist
+Encrypted Legend
+Uplink Ace

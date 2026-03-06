@@ -1,0 +1,19 @@
+# Format: ON VERB, OFF VERB
+# Each line should contain two words separated by a comma. 
+# The first word is the "On" verb. The second word is the corresponding "Off" verb.
+
+Upload,Download
+Encrypt,Decrypt
+Compile,Decompile
+Launch,Kill
+Enable,Disable
+Connect,Disconnect
+Engage,Disengage
+Lock,Unlock
+Enable Firewall,Disable Firewall
+Go Dark,Go Live
+Inject,Purge
+Loop,Break
+Infiltrate,Extract
+Uplink,Downlink
+Boot,Shutdown

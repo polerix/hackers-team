@@ -1,0 +1,41 @@
+# Misc. descriptive and label text that appears between sectors.
+# Don't use more than four or five lines for the Introduction or it will be too long.
+
+
+# Introduction
+Mess with the best, die like the rest.
+Hack the planet!
+The Gibson is waiting. Boot up, cowboys.
+We are samurai. The keyboard cowboys. Let's ride.
+
+
+# Sector
+Layer
+Node
+Subnet
+Protocol
+Sector
+Uplink
+Shell
+
+
+# Hyperspace
+Jumping to next node...
+Bouncing through proxy...
+Rerouting through satellite uplink...
+Switching to ghost node...
+Phreaking new carrier wave...
+
+
+# No anomalies detected
+No viruses detected.
+System nominal. Plague is asleep.
+The Gibson is quiet... for now.
+No trace detected. We're ghost.
+
+
+# Prepare to receive instructions
+Prepare to receive new commands, cowboy.
+Boot up and stand by for instructions.
+Incoming data from the network. Get ready.
+All hands jack in. New orders incoming.

@@ -1,0 +1,43 @@
+# Instructions that are given to players.
+# %@ - will be replaced by the control name.
+# %d - will be replaced by the number to set the control to.
+
+
+# Set ___ to ___
+Set %@ to %d
+Set protocol %@ to level %d
+Route %@ to node %d
+Set %@ to %d layers deep
+Set firewall %@ to %d
+
+
+# Set ___ to maximum
+Flood %@ to maximum
+Set %@ to maximum throughput
+Push %@ to max
+Overload %@ to maximum
+
+
+# Increase ___ to ___
+Increase %@ to %d
+Ramp up %@ to %d
+Boost %@ to %d layer
+Escalate %@ to priority %d
+
+
+# Decrease ___ to ___
+Decrease %@ to %d
+Throttle down %@ to %d
+Step back %@ to %d
+
+
+# Asteroid
+Trace incoming! Bounce the %@!
+Incoming FBI trace! Reroute %@!
+Gill is on the line! Kill the %@!
+
+
+# Wormhole
+We're in the kernel! Flood the %@!
+The Gibson is ours! Execute %@!
+Hack the planet! Launch the %@!

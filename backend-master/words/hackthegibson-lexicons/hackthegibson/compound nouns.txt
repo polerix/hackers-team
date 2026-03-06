@@ -1,0 +1,37 @@
+# Compound nouns made up of a prefix and a base combining to form a single word: PREFIX BASE
+# Any prefix can be combined with any base.
+
+
+# Prefix
+Acid
+Crash
+Zero
+Ghost
+Nano
+Hyper
+Signal
+Kernel
+Cyber
+Daemon
+Payload
+Backdoor
+Uplink
+Worm
+Virus
+
+# Base
+burn
+link
+node
+shell
+feed
+trace
+hook
+code
+lock
+vault
+patch
+drive
+port
+log
+file

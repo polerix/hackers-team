@@ -1,0 +1,72 @@
+# One noun per line.
+
+Gibson
+Kernel
+Daemon
+Worm
+Rabbit
+Virus
+Payload
+Rootkit
+Exploit
+Backdoor
+Trojan
+Keylogger
+Botnet
+Packet
+Socket
+Buffer
+Shell
+Terminal
+Uplink
+Downlink
+Handshake
+Zero Bug
+Cookie Monster
+Da Vinci
+Flu-Shot
+Token
+Proxy
+Firewall
+Garbage File
+Disk
+Uplink
+Modem
+Node
+Jolt Cola
+Pay Phone
+Dialup
+Superuser
+Supertanker
+Wetware
+Warez
+Pirate Eye
+Loop
+Tracer
+Switchboard
+Ballast Program
+RAM
+Hard Drive
+Floppy
+Phreak Box
+Tone
+Interface
+BPS
+PCI Bus
+RISC
+Chip
+Overhead
+Compiler
+Login
+Password
+Database
+Archive
+Satlink
+Network
+Subnet
+Domain
+Port
+Protocol
+Handset
+Carrier
+Manifesto

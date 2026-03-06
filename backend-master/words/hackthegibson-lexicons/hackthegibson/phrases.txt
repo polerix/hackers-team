@@ -1,0 +1,44 @@
+# Format: BUTTON LABEL, PANEL LABEL
+# Each line should contain two parts separated by a comma. 
+# The first part will appear on the button. The second part will be the panel label.
+
+Hack,The Gibson
+Boot,Zero Cool's Terminal
+Deploy,Da Vinci Virus
+Kill,The Worm
+Send,Cookie Monster
+Jack in,Ellingson Net
+Inject,Garbage File
+Flush,Admin Buffer
+Bounce,Trace Signal
+Drop,Zero Bug
+Launch,Rabbit Virus
+Run,Anti-Virus
+Echo,Terminal 23
+Crack,Superuser Login
+Shoulder Surf,Ellingson MIneral
+Scan,Open Ports
+Access,Accounting Subdirectory
+Bypass,FBI NCIC
+Hack,Concourse Bank
+Activate,Flu-Shot
+Kill,Da Vinci
+Dump,Crash File
+Reroute,Satellite Link
+Send,Distress Signal
+Phreakout,Pay Phone
+Jam,Secret Service Comms
+Freeze,Traffic Grid
+Download,Worm Code
+Upload,Proof File
+Trace,Call in Progress
+Authenticate,Backdoor
+Spoof,Gill's Record
+Compile,Zero Exploit
+Decrypt,Garbage File
+Find,Back Door
+Run,Dialup
+Snoop,Onto Them
+Hack,the Planet
+Free,the Data
+Kill,The Gibson
