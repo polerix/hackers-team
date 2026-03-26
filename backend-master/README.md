@@ -13,7 +13,7 @@ Players work together, shouting commands across devices, to overload the Gibson 
 ## Running Locally
 
 ```bash
-git clone https://github.com/HackersTeam/backend.git hackersTeam
+git clone https://github.com/hackers-team/backend.git hackersTeam
 cd hackersTeam/backend-master
 
 # Create and activate virtual environment
